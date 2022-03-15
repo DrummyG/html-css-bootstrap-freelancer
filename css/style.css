@@ -32,15 +32,21 @@ header{
 }
 
 .cover{
+    width: 94%;
     background-color: #bcbf4d;
-    width: 96%;
+    display: none;
 }
 
 .fa-plus{
     font-size: 100px;
+    display: none;
 }
 
-.back_2{
+.position-relative:hover .cover, .position-relative:hover .fa-plus{
+    display: block;
+}
+
+footer{
     background-color: #3a546d;
 }
 
