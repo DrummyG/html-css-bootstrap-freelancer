@@ -32,6 +32,10 @@ section{
     width: 300px;
 }
 
+.starred{
+    width: 10%;
+}
+
 .back .starred{
     border: 3px solid white;
 }
@@ -42,7 +46,7 @@ section{
 }
 
 .cover{
-    width: 94%;
+    width: 100%;
     background-color: #bcbf4d;
     display: none;
 }
